@@ -36,14 +36,14 @@ class _DailyPageState extends State<DailyPage> {
             ]),
             child: Padding(
               padding: const EdgeInsets.only(
-                  top: 60, right: 20, left: 20, bottom: 25),
+                  top: 40, right: 20, left: 20, bottom: 25),
               child: Column(
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Depense quotidienne",
+                        "Dépenses quotidiennes",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
